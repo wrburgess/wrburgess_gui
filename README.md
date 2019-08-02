@@ -11,6 +11,13 @@
 - Linting: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/)
 - Fonts: [Lato](https://fonts.google.com/specimen/Lato), “Helvetica Neue”, “Helvetica”, sans-serif`
 
+## Priorities
+
+- Move code to `src` directory and build to `dist`
+- Add Sass to project
+- Add ESLint and Prettier
+- Load a molecule component
+
 ## Getting Started
 
 - git clone

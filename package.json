@@ -4,6 +4,8 @@
   "description": "A template for Infrastructure Pod Service GUIs",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/Hireology/infrastructure_gui/issues"
   },
-  "homepage": "https://github.com/Hireology/infrastructure_gui#readme"
+  "homepage": "https://github.com/Hireology/infrastructure_gui#readme",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "parcel-bundler": "1.12.3"
+  },
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  }
 }
