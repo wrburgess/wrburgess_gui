@@ -11,6 +11,11 @@
 - Linting: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/)
 - Fonts: [Lato](https://fonts.google.com/specimen/Lato), “Helvetica Neue”, “Helvetica”, sans-serif`
 
+## References
+
+- [Setting up React with Parcel](https://parceljs.org/recipes.html)
+- [Create a React app with zero configuration using Parcel](https://blog.jakoblind.no/react-parcel/)
+
 ## Priorities
 
 - Move code to `src` directory and build to `dist`
