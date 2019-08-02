@@ -9,4 +9,21 @@
 - Styling: [Sass](https://sass-lang.com/)
 - Testing: [Jest](https://jestjs.io/), [Cypress](https://www.cypress.io/)
 - Linting: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/)
-- Fonts: `“Lato”, “Helvetica Neue”, “Helvetica”, sans-serif`
+- Fonts: [Lato](https://fonts.google.com/specimen/Lato), “Helvetica Neue”, “Helvetica”, sans-serif`
+
+## Getting Started
+
+- git clone
+- install dependencies
+- run local server
+- run tests
+- get help
+
+## TODO
+
+- Mention setup for NVM (Node Version Manager)
+- Mention setup for Node and setting version
+- Mention setup for npm
+- Install node packages
+- Explain Google Auth
+- Changing Linter Rules
