@@ -24,11 +24,10 @@ The targeted path for building front-end interfaces for our services:
 
 - [Setting up React with Parcel](https://parceljs.org/recipes.html)
 - [Create a React app with zero configuration using Parcel](https://blog.jakoblind.no/react-parcel/)
+- [Lean React Project With Parcel (and Sass)](https://medium.com/dailyjs/lean-react-project-with-parcel-a6ffe0fac0d2)
 
 ## Priorities
 
-- Move code to `src` directory and build to `dist`
-- Add Sass to project
 - Add ESLint and Prettier
 - Load a molecule component
 

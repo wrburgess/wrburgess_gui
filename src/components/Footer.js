@@ -1,11 +1,12 @@
 import React from 'react';
+import "./Footer.scss";
 
 class Footer extends React.Component {
   render() {
     return (
-      <div>
+      <footer>
         This is the Footer
-      </div>
+      </footer>
     );
   }
 }
