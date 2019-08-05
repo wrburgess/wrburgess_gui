@@ -1,6 +1,15 @@
 # Infrastructure GUI
 
-## Dependencies
+## Approach
+
+The targeted path for building front-end interfaces for our services:  
+
+* Create an independent front-end repo and application per service
+* Utilize JavaScript/React for the application build
+* Use OAuth and Google for authentication in coordination with the Service Team
+* Host each application separately from the service
+
+## Recommended Application Dependencies
 
 - Foundation: [Node.js](https://nodejs.org/en/)
 - Bundling: [Parcel.js](https://parceljs.org/)
