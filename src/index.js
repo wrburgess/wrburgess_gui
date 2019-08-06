@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <div>
         <Header />
-        This is the Content
+        This is the Content (Black)
         <Footer />
       </div>
     );

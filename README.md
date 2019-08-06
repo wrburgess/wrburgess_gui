@@ -65,7 +65,7 @@ This repo represents a "recommended path" for building front-end interfaces for 
 
 - Aim for a "modular" structure with grouping by component-related files, not by file-type. Examples:
 
-YES
+Encouraged
 
 ```
 /components
@@ -77,7 +77,7 @@ YES
   Component_2.test.js
 ```
 
-NO
+Discouraged
 
 ```
 /components
@@ -93,7 +93,6 @@ NO
 
 ## Priorities
 
-- Add ESLint and Prettier
 - Load a molecule component
 
 ## Getting Started
