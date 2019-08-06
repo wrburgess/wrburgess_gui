@@ -2,14 +2,14 @@
 
 ## Approach
 
-The targeted path for building front-end interfaces for our services:  
+This repo represents a "recommended path" for building front-end interfaces for Hireology services:
 
-* Create an independent front-end repo and application per service
-* Utilize JavaScript/React for the application build
-* Use OAuth and Google for authentication in coordination with the Service Team
-* Host each application separately from the service
+- Create an independent front-end repo and application per service
+- Utilize JavaScript/React for the application build
+- Use OAuth and Google for authentication in coordination with the Service Team
+- Host each application separately from the service
 
-## Recommended Application Dependencies
+## Dependencies
 
 - Foundation: [Node.js](https://nodejs.org/en/), [Node Version Manager](https://github.com/nvm-sh/nvm)
 - Bundling: [Parcel.js](https://parceljs.org/)
@@ -33,12 +33,12 @@ The targeted path for building front-end interfaces for our services:
 - [Install Node Version Manager](https://github.com/nvm-sh/nvm#installation-and-update) (nvm) and confirm installation with `command -v nvm` which should print `nvm`
 - List local versions of Node: `nvm ls`
 - List available versions of Node: `nvm ls-remote`
-- Install a new version of Node: `nvm install node` 
+- Install a new version of Node: `nvm install node`
 - Use the latest version of Node: `nvm use node`
 - Check Node version: `node -v`
 - For context, latest Node is `12.7.0` as of Aug 5, 2019
 
-### Setup New Repo
+### Setup a New Repo
 
 - Clone the repo: `git clone git@github.com:Hireology/infrastructure_gui.git [new-repo-name]`
 - Move into directory: `cd [new-repo-name]`
@@ -47,11 +47,26 @@ The targeted path for building front-end interfaces for our services:
 - Visit test site: http://localhost:1234
 - Run tests: `npm run test`
 
-### File Grouping (Recommendations)
+### Install ESLint and Prettier (Mac)
 
-* Aim for a "modular" structure by grouping component-related files, not by grouping file-type-related files. Examples:
+- Install ESLint globally with `npm i -g eslint`
+- Install Prettier globally with `npm i -g prettier`
+- Update global packages with `npm update -g`
+
+### Configuration Files
+
+- The `.eslintrc.js` file sets up configuration of ESLint syntax rules
+- The `.prettierrc.js` file sets up configuration of Prettier formatting
+- The `.babelrc.js` file allows parcel to transpile ES6+ and React code to ES5 code
+
+## Recommendations
+
+### Directory and File Organization
+
+- Aim for a "modular" structure with grouping by component-related files, not by file-type. Examples:
 
 YES
+
 ```
 /components
   Component_1.js
@@ -63,6 +78,7 @@ YES
 ```
 
 NO
+
 ```
 /components
   Component_1.js
