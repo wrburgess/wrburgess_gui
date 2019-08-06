@@ -1,3 +1,5 @@
 module.exports = {
-  presets: ['env', 'react'],
+  presets: [
+    'env', 'react'
+  ],
 };
