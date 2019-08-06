@@ -27,8 +27,7 @@
   "scripts": {
     "start": "NODE_ENV=development parcel ./src/index.html",
     "build": "NODE_ENV=production npm run clean && parcel build ./src/index.html",
-    "clean": "rm -rf dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf dist"
   },
   "version": "1.0.0"
 }
