@@ -1,23 +1,10 @@
 {
-  "name": "infrastructure_gui",
-  "version": "1.0.0",
-  "description": "A template for Infrastructure Pod Service GUIs",
-  "main": "index.js",
-  "scripts": {
-    "start": "NODE_ENV=development parcel ./src/index.html",
-    "build": "NODE_ENV=production npm run clean && parcel build ./src/index.html",
-    "clean": "rm -rf dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Hireology/infrastructure_gui.git"
-  },
   "author": "rburgess@hireology",
-  "bugs": {
-    "url": "https://github.com/Hireology/infrastructure_gui/issues"
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
   },
-  "homepage": "https://github.com/Hireology/infrastructure_gui#readme",
+  "description": "A template for Infrastructure Pod Service GUIs",
   "devDependencies": {
     "babel-core": "6.26.3",
     "babel-eslint": "10.0.2",
@@ -31,8 +18,17 @@
     "prettier": "1.18.2",
     "sass": "1.22.9"
   },
-  "dependencies": {
-    "react": "16.8.6",
-    "react-dom": "16.8.6"
-  }
+  "main": "index.js",
+  "name": "infrastructure_gui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hireology/infrastructure_gui"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development parcel ./src/index.html",
+    "build": "NODE_ENV=production npm run clean && parcel build ./src/index.html",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
