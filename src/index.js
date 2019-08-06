@@ -1,8 +1,8 @@
-import './theme/variables.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import './theme/variables.scss';
 
 class App extends React.Component {
   render() {
