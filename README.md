@@ -1,5 +1,10 @@
 # Infrastructure GUI
 
+## Context
+
+- [TOOL-1736 - Front End Framework for Golang Services](https://hireology.atlassian.net/browse/TOOL-1736)
+- [TOOL-1737 - Golang front end service architecture strategy](https://hireology.atlassian.net/browse/TOOL-1737)
+
 ## Approach
 
 This repo represents a "recommended path" for building front-end interfaces for Hireology services:
