@@ -2,11 +2,13 @@ module.exports = {
   env: {
     es6: true,
     browser: true,
+    jest: true,
   },
   extends: [
     'eslint:recommended',
     'plugin:prettier/recommended',
     'plugin:react/recommended',
+    'plugin:jest/recommended',
   ],
   parser: 'babel-eslint',
   parserOptions: {
@@ -17,7 +19,8 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'react'
+    'react',
+    'jest'
   ],
   rules: {
     'react/jsx-uses-react': 'error',
