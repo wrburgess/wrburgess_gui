@@ -4,6 +4,7 @@
 
 - [TOOL-1736 - Front End Framework for Golang Services](https://hireology.atlassian.net/browse/TOOL-1736)
 - [TOOL-1737 - Golang front end service architecture strategy](https://hireology.atlassian.net/browse/TOOL-1737)
+- [SYS-604 - Setup a hosting environment for React.js Interface](https://hireology.atlassian.net/browse/SYS-604)
 
 ## Approach
 
