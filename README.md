@@ -6,19 +6,18 @@ This repo represents a "recommended path" for building front-end interfaces for 
 
 - Create an independent front-end repo and application per service
 - Utilize JavaScript/React for the application build
-- Use OAuth and Google for authentication in coordination with the Service Team
-- Host each application separately from the service
+- Use OAuth and Google for authentication (in coordination with the Systems Pod)
 
 ## Dependencies
 
-- Foundation: [Node.js](https://nodejs.org/en/), [Node Version Manager](https://github.com/nvm-sh/nvm)
+- Foundation: [Node.js](https://nodejs.org/en/), [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm)
 - Bundling: [Parcel.js](https://parceljs.org/)
 - Framework: [React.js](https://reactjs.org/)
 - Components: [@hireology/molecules](https://github.com/Hireology/molecules)
 - Styling: [Sass](https://sass-lang.com/)
-- Testing: [Jest](https://jestjs.io/), [Cypress](https://www.cypress.io/)
 - Linting: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/)
-- Fonts: [Lato](https://fonts.google.com/specimen/Lato), “Helvetica Neue”, “Helvetica”, sans-serif`
+- Testing: [Jest](https://jestjs.io/), [Cypress](https://www.cypress.io/)
+- Typeface: [Lato](https://fonts.google.com/specimen/Lato), “Helvetica Neue”, “Helvetica”, sans-serif
 
 ## References
 
@@ -35,15 +34,16 @@ This repo represents a "recommended path" for building front-end interfaces for 
 - List available versions of Node: `nvm ls-remote`
 - Install a new version of Node: `nvm install node`
 - Use the latest version of Node: `nvm use node`
-- Check Node version: `node -v`
-- For context, latest Node is `12.7.0` as of Aug 5, 2019
+- Check Node versions: `node -v` and `npm -v`
+- For context, latest Node is `12.7.0` as of August 2019
+- For context, latest npm is `6.10.3` as of August 2019
 
 ### Setup a New Repo
 
 - Clone the repo: `git clone git@github.com:Hireology/infrastructure_gui.git [new-repo-name]`
 - Move into directory: `cd [new-repo-name]`
 - Install dependencies: `npm install`
-- Test build works: `npm run start`
+- Check the build rendering: `npm run start`
 - Visit test site: http://localhost:1234
 - Run tests: `npm run test`
 
@@ -97,17 +97,10 @@ Discouraged
 
 ## Getting Started
 
-- git clone
-- install dependencies
-- run local server
 - run tests
 - get help
 
 ## TODO
 
-- Mention setup for NVM (Node Version Manager)
-- Mention setup for Node and setting version
-- Mention setup for npm
-- Install node packages
 - Explain Google Auth
 - Changing Linter Rules
