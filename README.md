@@ -100,3 +100,4 @@ Discouraged
 - [Create a React app with zero configuration using Parcel](https://blog.jakoblind.no/react-parcel/)
 - [Lean React Project With Parcel (and Sass)](https://medium.com/dailyjs/lean-react-project-with-parcel-a6ffe0fac0d2)
 - [Write beautiful and consistent JavaScript code using ESLint, Prettier and VSCode](https://hackernoon.com/write-beautiful-and-consistent-javascript-code-using-eslint-prettier-and-vscode-760837fdef89)
+- [Using Jest with Parcel Bundler](https://ryankubik.com/blog/parcel-and-jest/)
