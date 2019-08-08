@@ -1,7 +1,17 @@
-function sum(a, b) {
-  return a + b;
-}
+import React from 'react';
+import { render, cleanup } from '@testing-library/react';
+import Header from './Header';
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+afterEach(cleanup);
+
+describe('components/Header', () => {
+  it('renders with the default property', () => {
+    const { getByText } = render(<Header />);
+    expect(getByText('This is the Header (Red)')).toBeTruthy();
+  });
+
+  it('renders with the submitted property', () => {
+    const { getByText } = render(<Header color="Blue" />);
+    expect(getByText('This is the Header (Blue)')).toBeTruthy();
+  });
 });
