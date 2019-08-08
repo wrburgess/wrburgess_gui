@@ -64,6 +64,38 @@ This repo represents a recommended path for building front-end interfaces associ
 
 ## Recommendations
 
+### Functional vs Class Components
+
+Encouraged
+
+```
+// Functional Component
+
+function ReactHeader(props) {
+  return (
+    <h1>
+      React {props.version || 16} Documentation
+    </h1>
+  )
+}
+```
+
+Discouraged
+
+```
+// Class Component
+
+class ReactHeader extends React.Component {
+  render() {
+    return (
+      <h1>
+        React {this.props.version || 16} Documentation
+      </h1>
+    )
+  }
+}
+```
+
 ### Directory and File Organization
 
 - Aim for a "modular" structure with grouping by component-related files, not by file-type. Examples:
