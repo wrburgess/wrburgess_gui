@@ -1,5 +1,5 @@
 {
-  "author": "rburgess@hireology",
+  "author": "Hireology Infrastructure Pod",
   "dependencies": {
     "@hireology/molecules": "1.0.1",
     "react": "16.8.6",
@@ -32,7 +32,8 @@
     "build": "NODE_ENV=production npm run clean && parcel build ./src/index.html",
     "clean": "rm -rf dist",
     "lint": "eslint src/",
-    "test": "jest"
+    "test": "NODE_ENV=test jest",
+    "test:cov": "NODE_ENV=test jest --coverage"
   },
   "version": "1.0.0"
 }

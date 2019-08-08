@@ -8,7 +8,7 @@
 
 ## Objective
 
-This repo represents a "recommended path" for building front-end interfaces for Hireology services:
+This repo represents a recommended path for building front-end interfaces associated with Hireology services:
 
 - Create an independent front-end repo and application per service
 - Utilize JavaScript/React for the application build
@@ -21,15 +21,11 @@ This repo represents a "recommended path" for building front-end interfaces for 
 - Framework: [React.js](https://reactjs.org/)
 - Components: [@hireology/molecules](https://github.com/Hireology/molecules)
 - Styling: [Sass](https://sass-lang.com/)
-- Linting: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/)
-- Testing: [Jest](https://jestjs.io/), [Cypress](https://www.cypress.io/)
-- Typeface: [Lato](https://fonts.google.com/specimen/Lato), “Helvetica Neue”, “Helvetica”, sans-serif
-
-## References
-
-- [Setting up React with Parcel](https://parceljs.org/recipes.html)
-- [Create a React app with zero configuration using Parcel](https://blog.jakoblind.no/react-parcel/)
-- [Lean React Project With Parcel (and Sass)](https://medium.com/dailyjs/lean-react-project-with-parcel-a6ffe0fac0d2)
+- Typefaces: [Lato](https://fonts.google.com/specimen/Lato), “Helvetica Neue”, “Helvetica”, sans-serif
+- Linting: [ESLint](https://eslint.org/)
+- Formatting: [Prettier](https://prettier.io/)
+- Unit Testing: [Jest](https://jestjs.io/)
+- Integration Testing: [Cypress](https://www.cypress.io/)
 
 ## Getting Started
 
@@ -58,6 +54,7 @@ This repo represents a "recommended path" for building front-end interfaces for 
 - Install ESLint globally with `npm i -g eslint`
 - Install Prettier globally with `npm i -g prettier`
 - Update global packages with `npm update -g`
+- Run linting: `npm run lint`
 
 ### Configuration Files
 
@@ -97,16 +94,9 @@ Discouraged
   Component_2.scss
 ```
 
-## Priorities
+## References
 
-- Load a molecule component
-
-## Getting Started
-
-- run tests
-- get help
-
-## TODO
-
-- Explain Google Auth
-- Changing Linter Rules
+- [Setting up React with Parcel](https://parceljs.org/recipes.html)
+- [Create a React app with zero configuration using Parcel](https://blog.jakoblind.no/react-parcel/)
+- [Lean React Project With Parcel (and Sass)](https://medium.com/dailyjs/lean-react-project-with-parcel-a6ffe0fac0d2)
+- [Write beautiful and consistent JavaScript code using ESLint, Prettier and VSCode](https://hackernoon.com/write-beautiful-and-consistent-javascript-code-using-eslint-prettier-and-vscode-760837fdef89)
