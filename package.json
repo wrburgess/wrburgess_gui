@@ -2,15 +2,15 @@
   "author": "Hireology Infrastructure Pod",
   "dependencies": {
     "@hireology/molecules": "1.0.1",
-    "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
   },
   "description": "A template for Infrastructure Pod Service GUIs",
   "devDependencies": {
     "@babel/core": "7.5.5",
     "@babel/preset-env": "7.5.5",
     "@babel/preset-react": "7.0.0",
-    "@testing-library/react": "8.0.8",
+    "@testing-library/react": "8.0.9",
     "babel-eslint": "10.0.2",
     "babel-jest": "24.8.0",
     "eslint": "6.1.0",
@@ -22,7 +22,7 @@
     "jest": "24.8.0",
     "parcel-bundler": "1.12.3",
     "prettier": "1.18.2",
-    "react-test-renderer": "16.8.6",
+    "react-test-renderer": "16.9.0",
     "sass": "1.22.9"
   },
   "main": "index.js",

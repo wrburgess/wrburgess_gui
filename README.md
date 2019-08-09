@@ -24,7 +24,7 @@ This repo represents a recommended path for building front-end interfaces associ
 - Typefaces: [Lato](https://fonts.google.com/specimen/Lato), “Helvetica Neue”, “Helvetica”, sans-serif
 - Linting: [ESLint](https://eslint.org/)
 - Formatting: [Prettier](https://prettier.io/)
-- Unit Testing: [Jest](https://jestjs.io/)
+- Unit Testing: [Jest](https://jestjs.io/), [Testing Library: React](https://testing-library.com/docs/react-testing-library/intro)
 - Integration Testing: [Cypress](https://www.cypress.io/)
 
 ## Getting Started
